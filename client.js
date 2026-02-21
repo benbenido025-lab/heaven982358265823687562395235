@@ -12,7 +12,7 @@ const fs = require('fs').promises;
 const path = require('path');
 
 const port = process.env.PORT || process.env.SERVER_PORT || 5552;
-const MASTER_SERVER = process.env.MASTER_SERVER || 'https://flood-of-noah.onrender.com';
+const MASTER_SERVER = process.env.MASTER_SERVER || 'https://heaven982358265823687562395235.onrender.com';
 
 let myBotUrl = '';
 let registrationAttempts = 0;
